@@ -1,0 +1,50 @@
+* {
+
+}
+
+
+div.googlelogo {
+    display:block;
+    margin: 0 auto;
+    width: 272px;
+}
+
+ul.topBar {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: blue;
+    
+}
+
+li.topBar{
+    float: right;
+    display:block;
+    padding: 14px 16px;
+    background-color: aqua;
+}
+
+.header-offset
+{
+    position: relative;
+    top:40px;
+}
+
+.inp-box {
+    width 200px;
+    display: block;
+    position:relative;
+    align-content:center; 
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+
+.inp-box:focus {
+    background-color: lightblue;
+    border: 1px solid lightblue;
+}
